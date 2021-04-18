@@ -42,12 +42,8 @@ class ThumbnailCreator():
         self.im.show()
 
     def save(self, path):
-        self.im.save(path)
+        self.im.save(path, "JPEG")
 
 def randomColor():
     return (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
-
-if __name__ == "__main__":
-    tc = ThumbnailCreator(sys.argv[1:])
-    tc.show()
 

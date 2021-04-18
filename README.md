@@ -2,9 +2,16 @@
 To automatically create thumbnail for naver blog
 
 ## How to use
+
+### Start the server
 ```
 source ./env/bin/activate
-python thumbnail.py SAY SOMETHING YOU WANT 한국어 포함
+python main.py
+```
+
+### Request
+```
+http://localhost:8080/thumbnail?title=SAY%20SOMETHING%20YOU%20WANT%20%ED%95%9C%EA%B8%80%20%ED%8F%AC%ED%95%A8
 ```
 
 ## example
