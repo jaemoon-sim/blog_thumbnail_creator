@@ -5,7 +5,7 @@ To automatically create thumbnail for naver blog
 
 ### Start the server
 ```
-source ./env/bin/activate
+pip install -r requirements.txt
 python main.py
 ```
 
